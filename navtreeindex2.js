@@ -1,0 +1,20 @@
+var NAVTREEINDEX2 =
+{
+"df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#ae879001ac2b277666eee780057b387ff":[1,0,0,2,0],
+"df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#afef0e774026db0b81c837538793d0bb4":[1,0,0,2,3],
+"df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#aff7ca04c426e1424dbe74a9b70f9d720":[1,0,0,2,1],
+"dir_cc28575dbeaad850739ff8966f312d10.html":[3,0,0,1],
+"dir_cf83a4029c7c3e2b88f65e404a734a68.html":[3,0,0,0],
+"dir_fe04a9d4a78bc85c6ccbcab18d4724ec.html":[3,0,0],
+"files.html":[3,0],
+"functions.html":[2,3,0],
+"functions_func.html":[2,3,1],
+"functions_vars.html":[2,3,2],
+"hierarchy.html":[2,2],
+"index.html":[],
+"namespacemembers.html":[1,1,0],
+"namespacemembers_func.html":[1,1,1],
+"namespacemembers_vars.html":[1,1,2],
+"namespaces.html":[1,0],
+"pages.html":[]
+};
