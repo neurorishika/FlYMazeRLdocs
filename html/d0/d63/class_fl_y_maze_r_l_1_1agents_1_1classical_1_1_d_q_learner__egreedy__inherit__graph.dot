@@ -1,0 +1,11 @@
+digraph "FlYMazeRL.agents.classical.DQLearner_egreedy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="FlYMazeRL.agents.classical.\lDQLearner_egreedy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FlYMazeRL.agents.classical.\lDQLearner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/da7/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_d_q_learner.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FlYMazeRL.agents.base.Fl\lYMazeAgent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d62/class_fl_y_maze_r_l_1_1agents_1_1base_1_1_fl_y_maze_agent.html",tooltip=" "];
+}
