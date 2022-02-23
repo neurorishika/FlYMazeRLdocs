@@ -99,8 +99,8 @@ Functions</h2></td></tr>
 <tr class="separator:a8bf4b8b0a936d36c6bf823b851b74ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72844e2f95bd3ff80b15b7eff48a2732"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#a72844e2f95bd3ff80b15b7eff48a2732">thermal_reshuffle</a> (env, k, m)</td></tr>
 <tr class="separator:a72844e2f95bd3ff80b15b7eff48a2732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afef0e774026db0b81c837538793d0bb4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#afef0e774026db0b81c837538793d0bb4">thermal_annealing</a> (n_trials_per_episode, reward_fraction, agentClass, n_agents, n_generations, m, params=None, policy_params=None)</td></tr>
-<tr class="separator:afef0e774026db0b81c837538793d0bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d6a9f00c99d1234575ce5a4f25730f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#a06d6a9f00c99d1234575ce5a4f25730f">thermal_annealing</a> (n_trials_per_episode, reward_fraction, agentClass, n_agents, n_generations, m, params=None, policy_params=None, initial_schedule=None, draw_progress=False)</td></tr>
+<tr class="separator:a06d6a9f00c99d1234575ce5a4f25730f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae879001ac2b277666eee780057b387ff"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#ae879001ac2b277666eee780057b387ff">generate_random_child</a> (population, population_fitness, surviving_fraction=0.2, mean_crossover=1.25, mutate=True, max_mutation_rate=0.25)</td></tr>
 <tr class="separator:ae879001ac2b277666eee780057b387ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7ca04c426e1424dbe74a9b70f9d720"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#aff7ca04c426e1424dbe74a9b70f9d720">genetic_optimization</a> (n_trials_per_episode, reward_fraction, agentClass, n_agents, n_generations, population_size, params=None, policy_params=None)</td></tr>
@@ -296,8 +296,8 @@ phi(k): number of maximum number of indexes shuffled for a given generation k (i
 </pre> 
 </div>
 </div>
-<a id="afef0e774026db0b81c837538793d0bb4" name="afef0e774026db0b81c837538793d0bb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afef0e774026db0b81c837538793d0bb4">&#9670;&nbsp;</a></span>thermal_annealing()</h2>
+<a id="a06d6a9f00c99d1234575ce5a4f25730f" name="a06d6a9f00c99d1234575ce5a4f25730f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d6a9f00c99d1234575ce5a4f25730f">&#9670;&nbsp;</a></span>thermal_annealing()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,7 +348,19 @@ phi(k): number of maximum number of indexes shuffled for a given generation k (i
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>policy_params</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>policy_params</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>initial_schedule</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>draw_progress</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

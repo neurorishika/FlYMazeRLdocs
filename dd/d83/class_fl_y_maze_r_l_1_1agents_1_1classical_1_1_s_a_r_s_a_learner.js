@@ -1,7 +1,7 @@
 var class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner =
 [
     [ "init_recorder", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a734ac5afbed4e52b3b550243de765e40", null ],
-    [ "init_variables", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#ade6de24bf9eb766eb3b445f26ce81303", null ],
+    [ "init_variables", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a1e599489a99cb79c7743623f06f3a8c2", null ],
     [ "make_choice", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#aefd80c22266badf11836bfa6af1cdd6e", null ],
     [ "reset_recorder", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a8e27b709ad6edf3928342e0a2db83b3f", null ],
     [ "reset_variables", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#ad84a777d462449cfa4c634fdb04ebc74", null ],
@@ -9,8 +9,8 @@ var class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner =
     [ "trial_step", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a4da8baae56d7b413bbeab9507dd917d9", null ],
     [ "update_knowledge", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a06de3c0d9b416988d279b146fc5b114c", null ],
     [ "action_history", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a359c5503a49186e3bbe29c7e5431e683", null ],
-    [ "discount_rate", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a59a7b11a496c0b255d18d9fd6ef162b5", null ],
-    [ "learning_rate", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#aa4117ea6a2214ad7c885441a6f610c64", null ],
+    [ "alpha", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a034733c76d0bcba530d65c0f2f698f0c", null ],
+    [ "gamma", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a66152d831135b67e97a1ecd4dbb3752f", null ],
     [ "q_history", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a172697a9f7905faff958fdb0a6b423f9", null ],
     [ "q_table", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a641c24ce83fee54dd4163c0d474451af", null ],
     [ "reward_history", "dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a8b4a109b9b2a0eead57aed7bbf175eef", null ]

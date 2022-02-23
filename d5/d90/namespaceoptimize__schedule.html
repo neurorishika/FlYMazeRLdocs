@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('d5/d90/namespaceoptimize__schedule.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8d611773412a30670f6947e959394aea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a8d611773412a30670f6947e959394aea">argument_parser</a> = argparse.ArgumentParser(description='Program to optimize the <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a904267df8ef7704639bc37a747d44b8a">schedule</a> of a epsilon-softmax agent.')</td></tr>
+<tr class="memitem:a8d611773412a30670f6947e959394aea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a8d611773412a30670f6947e959394aea">argument_parser</a> = argparse.ArgumentParser(description=&quot;Program to optimize the schedule of a RL agent.&quot;)</td></tr>
 <tr class="separator:a8d611773412a30670f6947e959394aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7f0f680daad20644da5c54af367b211"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#ac7f0f680daad20644da5c54af367b211">type</a></td></tr>
 <tr class="separator:ac7f0f680daad20644da5c54af367b211"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -121,15 +121,15 @@ Variables</h2></td></tr>
 <tr class="separator:a725a8c4724ed930ed5d9ad176ab61e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03aecb71eabf7ad65af2af2ce756f03c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a03aecb71eabf7ad65af2af2ce756f03c">m</a> = args.m</td></tr>
 <tr class="separator:a03aecb71eabf7ad65af2af2ce756f03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c6613e7a8d3544f36451748c328e778"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a1c6613e7a8d3544f36451748c328e778">agent_class</a> = <a class="el" href="../../d9/df2/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_q_learner__esoftmax.html">QLearner_esoftmax</a></td></tr>
+<tr class="memitem:a1c6613e7a8d3544f36451748c328e778"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a1c6613e7a8d3544f36451748c328e778">agent_class</a> = QLearner_esoftmax</td></tr>
 <tr class="separator:a1c6613e7a8d3544f36451748c328e778"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a639897a63e73a35254e794138cee6693"><td class="memItemLeft" align="right" valign="top">dictionary&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a639897a63e73a35254e794138cee6693">params</a> = {'learning_rate':args.learning_rate,'discount_rate':args.discount_rate}</td></tr>
+<tr class="memitem:a639897a63e73a35254e794138cee6693"><td class="memItemLeft" align="right" valign="top">dictionary&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a639897a63e73a35254e794138cee6693">params</a> = {&quot;learning_rate&quot;: args.learning_rate, &quot;discount_rate&quot;: args.discount_rate}</td></tr>
 <tr class="separator:a639897a63e73a35254e794138cee6693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85a8fcd32ab5511d0d8c4eecfca8d0bd"><td class="memItemLeft" align="right" valign="top">dictionary&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd">policy_params</a> = {'epsilon':args.epsilon,'temperature':args.temperature}</td></tr>
+<tr class="memitem:a85a8fcd32ab5511d0d8c4eecfca8d0bd"><td class="memItemLeft" align="right" valign="top">dictionary&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd">policy_params</a> = {&quot;epsilon&quot;: args.epsilon, &quot;temperature&quot;: args.temperature}</td></tr>
 <tr class="separator:a85a8fcd32ab5511d0d8c4eecfca8d0bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93cee6e9f6b2740189ed8b46b1ef5d44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a93cee6e9f6b2740189ed8b46b1ef5d44">start_time</a> = datetime.datetime.now().strftime(&quot;%Y-%<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a03aecb71eabf7ad65af2af2ce756f03c">m</a>-%d_%H-%M-%S&quot;)</td></tr>
 <tr class="separator:a93cee6e9f6b2740189ed8b46b1ef5d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9c122fd3ad1f033ac7fb786d21bc028"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#af9c122fd3ad1f033ac7fb786d21bc028">log_file</a> = 'FlYMazeRL_results/optimize_schedule_'+<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a93cee6e9f6b2740189ed8b46b1ef5d44">start_time</a>+'.log'</td></tr>
+<tr class="memitem:af9c122fd3ad1f033ac7fb786d21bc028"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#af9c122fd3ad1f033ac7fb786d21bc028">log_file</a> = &quot;FlYMazeRL_results/optimize_schedule_&quot; + start_time + &quot;.log&quot;</td></tr>
 <tr class="separator:af9c122fd3ad1f033ac7fb786d21bc028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67e0f6425d442dee4b427a4b3b32c31d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a67e0f6425d442dee4b427a4b3b32c31d">best_schedule</a></td></tr>
 <tr class="separator:a67e0f6425d442dee4b427a4b3b32c31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,14 +137,10 @@ Variables</h2></td></tr>
 <tr class="separator:aa4f4f0d0244231b9da8131585b3efce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accb7e68f009f652cc004d90768d0b307"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#accb7e68f009f652cc004d90768d0b307">save</a></td></tr>
 <tr class="separator:accb7e68f009f652cc004d90768d0b307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a299c616c0a3a54adb63e38d1a7b12276"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a299c616c0a3a54adb63e38d1a7b12276">True</a></td></tr>
-<tr class="separator:a299c616c0a3a54adb63e38d1a7b12276"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cd2ad77ab72c85088b0d80ff7df8021"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a0cd2ad77ab72c85088b0d80ff7df8021">filename</a></td></tr>
 <tr class="separator:a0cd2ad77ab72c85088b0d80ff7df8021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa92abcc3cbe96434fa552bfcfcfbec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#aaa92abcc3cbe96434fa552bfcfcfbec8">action_histories</a> = get_schedule_histories(<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a67e0f6425d442dee4b427a4b3b32c31d">best_schedule</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a1c6613e7a8d3544f36451748c328e778">agent_class</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a725a8c4724ed930ed5d9ad176ab61e5b">n_agents</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a639897a63e73a35254e794138cee6693">params</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd">policy_params</a>)</td></tr>
+<tr class="memitem:aaa92abcc3cbe96434fa552bfcfcfbec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#aaa92abcc3cbe96434fa552bfcfcfbec8">action_histories</a> = get_schedule_histories(<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a67e0f6425d442dee4b427a4b3b32c31d">best_schedule</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a1c6613e7a8d3544f36451748c328e778">agent_class</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a725a8c4724ed930ed5d9ad176ab61e5b">n_agents</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a639897a63e73a35254e794138cee6693">params</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd">policy_params</a>)</td></tr>
 <tr class="separator:aaa92abcc3cbe96434fa552bfcfcfbec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a904267df8ef7704639bc37a747d44b8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a904267df8ef7704639bc37a747d44b8a">schedule</a></td></tr>
-<tr class="separator:a904267df8ef7704639bc37a747d44b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae15239ac1200615e9cbfe379fe028721"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#ae15239ac1200615e9cbfe379fe028721">delimiter</a></td></tr>
 <tr class="separator:ae15239ac1200615e9cbfe379fe028721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30b710eedae42645cab79d299cde836e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a30b710eedae42645cab79d299cde836e">fmt</a></td></tr>
@@ -158,7 +154,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optimize_schedule.action_histories = get_schedule_histories(<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a67e0f6425d442dee4b427a4b3b32c31d">best_schedule</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a1c6613e7a8d3544f36451748c328e778">agent_class</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a725a8c4724ed930ed5d9ad176ab61e5b">n_agents</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a639897a63e73a35254e794138cee6693">params</a>,<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd">policy_params</a>)</td>
+          <td class="memname">optimize_schedule.action_histories = get_schedule_histories(<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a67e0f6425d442dee4b427a4b3b32c31d">best_schedule</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a1c6613e7a8d3544f36451748c328e778">agent_class</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a725a8c4724ed930ed5d9ad176ab61e5b">n_agents</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a639897a63e73a35254e794138cee6693">params</a>, <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd">policy_params</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -172,7 +168,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optimize_schedule.agent_class = <a class="el" href="../../d9/df2/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_q_learner__esoftmax.html">QLearner_esoftmax</a></td>
+          <td class="memname">optimize_schedule.agent_class = QLearner_esoftmax</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -200,7 +196,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">optimize_schedule.argument_parser = argparse.ArgumentParser(description='Program to optimize the <a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a904267df8ef7704639bc37a747d44b8a">schedule</a> of a epsilon-softmax agent.')</td>
+          <td class="memname">optimize_schedule.argument_parser = argparse.ArgumentParser(description=&quot;Program to optimize the schedule of a RL agent.&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -340,7 +336,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">string optimize_schedule.log_file = 'FlYMazeRL_results/optimize_schedule_'+<a class="el" href="../../d5/d90/namespaceoptimize__schedule.html#a93cee6e9f6b2740189ed8b46b1ef5d44">start_time</a>+'.log'</td>
+          <td class="memname">string optimize_schedule.log_file = &quot;FlYMazeRL_results/optimize_schedule_&quot; + start_time + &quot;.log&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -410,7 +406,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">dictionary optimize_schedule.params = {'learning_rate':args.learning_rate,'discount_rate':args.discount_rate}</td>
+          <td class="memname">dictionary optimize_schedule.params = {&quot;learning_rate&quot;: args.learning_rate, &quot;discount_rate&quot;: args.discount_rate}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -424,7 +420,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">dictionary optimize_schedule.policy_params = {'epsilon':args.epsilon,'temperature':args.temperature}</td>
+          <td class="memname">dictionary optimize_schedule.policy_params = {&quot;epsilon&quot;: args.epsilon, &quot;temperature&quot;: args.temperature}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -459,20 +455,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a904267df8ef7704639bc37a747d44b8a" name="a904267df8ef7704639bc37a747d44b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a904267df8ef7704639bc37a747d44b8a">&#9670;&nbsp;</a></span>schedule</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">optimize_schedule.schedule</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a93cee6e9f6b2740189ed8b46b1ef5d44" name="a93cee6e9f6b2740189ed8b46b1ef5d44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93cee6e9f6b2740189ed8b46b1ef5d44">&#9670;&nbsp;</a></span>start_time</h2>
 
@@ -495,20 +477,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">optimize_schedule.str</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a299c616c0a3a54adb63e38d1a7b12276" name="a299c616c0a3a54adb63e38d1a7b12276"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a299c616c0a3a54adb63e38d1a7b12276">&#9670;&nbsp;</a></span>True</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">optimize_schedule.True</td>
         </tr>
       </table>
 </div><div class="memdoc">

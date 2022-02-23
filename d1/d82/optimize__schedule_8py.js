@@ -22,9 +22,7 @@ var optimize__schedule_8py =
     [ "policy_params", "d1/d82/optimize__schedule_8py.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd", null ],
     [ "reward_fraction", "d1/d82/optimize__schedule_8py.html#ae860d4c4e5007a5a9b1db30e1c4b2c45", null ],
     [ "save", "d1/d82/optimize__schedule_8py.html#accb7e68f009f652cc004d90768d0b307", null ],
-    [ "schedule", "d1/d82/optimize__schedule_8py.html#a904267df8ef7704639bc37a747d44b8a", null ],
     [ "start_time", "d1/d82/optimize__schedule_8py.html#a93cee6e9f6b2740189ed8b46b1ef5d44", null ],
     [ "str", "d1/d82/optimize__schedule_8py.html#ab72591c9f6e57cdfd190c43b1e121645", null ],
-    [ "True", "d1/d82/optimize__schedule_8py.html#a299c616c0a3a54adb63e38d1a7b12276", null ],
     [ "type", "d1/d82/optimize__schedule_8py.html#ac7f0f680daad20644da5c54af367b211", null ]
 ];

@@ -1,6 +1,7 @@
 var class_fl_y_maze_r_l_1_1agents_1_1base_1_1_fl_y_maze_agent =
 [
     [ "__init__", "d8/d62/class_fl_y_maze_r_l_1_1agents_1_1base_1_1_fl_y_maze_agent.html#ad6fc8f1613ac870d031462f6f03484d2", null ],
+    [ "get_bias_estimate", "d8/d62/class_fl_y_maze_r_l_1_1agents_1_1base_1_1_fl_y_maze_agent.html#a6ba7c2a52486f589b632f1d6abf8985a", null ],
     [ "init_policy_variables", "d8/d62/class_fl_y_maze_r_l_1_1agents_1_1base_1_1_fl_y_maze_agent.html#a1277044dd75743c67520ac9b58c361fe", null ],
     [ "init_recorder", "d8/d62/class_fl_y_maze_r_l_1_1agents_1_1base_1_1_fl_y_maze_agent.html#a7297b11eb778b0b29dfe10134e16c0e1", null ],
     [ "init_variables", "d8/d62/class_fl_y_maze_r_l_1_1agents_1_1base_1_1_fl_y_maze_agent.html#a0739469fc552af6b3de68fe94869f97f", null ],

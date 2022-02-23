@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['random_5fseed_0',['random_seed',['../db/d5b/class_fl_y_maze_r_l_1_1environment_1_1ymaze__choice.html#a8a7af1f621ad2ba4f0af4a8d1935a45c',1,'FlYMazeRL::environment::ymaze_choice']]],
-  ['reward_5ffraction_1',['reward_fraction',['../db/d5b/class_fl_y_maze_r_l_1_1environment_1_1ymaze__choice.html#a1d028504d18f7a13b99d9142ca33f2cb',1,'FlYMazeRL.environment.ymaze_choice.reward_fraction()'],['../d5/d90/namespaceoptimize__schedule.html#ae860d4c4e5007a5a9b1db30e1c4b2c45',1,'optimize_schedule.reward_fraction()']]],
-  ['reward_5fhistory_2',['reward_history',['../dc/d52/class_fl_y_maze_r_l_1_1agents_1_1base_1_1_random_agent.html#a483a63d890df634d645a13c9103a9116',1,'FlYMazeRL.agents.base.RandomAgent.reward_history()'],['../df/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_q_learner.html#aa0f865e5b7c7faf256928fdaf6b4214f',1,'FlYMazeRL.agents.classical.QLearner.reward_history()'],['../dd/d83/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_s_a_r_s_a_learner.html#a8b4a109b9b2a0eead57aed7bbf175eef',1,'FlYMazeRL.agents.classical.SARSALearner.reward_history()'],['../d9/d7d/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_expected_s_a_r_s_a_learner.html#ae6d0af68024fe587533a32e77f546a5d',1,'FlYMazeRL.agents.classical.ExpectedSARSALearner.reward_history()'],['../d6/de7/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_double_q_learner.html#a8327bc8c955b53e2afb36c3b8cf8ad52',1,'FlYMazeRL.agents.classical.DoubleQLearner.reward_history()'],['../da/d22/class_fl_y_maze_r_l_1_1agents_1_1phenomenological_1_1_c_a_t_i_e_learner.html#aec53e6059b6b031f267832f76a985179',1,'FlYMazeRL.agents.phenomenological.CATIELearner.reward_history()']]]
+  ['panel_0',['panel',['../d3/de7/namespacemodel__bias__panel.html#ab40631d3887d4cfcfdf29a1e5db2a8a6',1,'model_bias_panel']]],
+  ['panel_5fsize_1',['panel_size',['../d3/de7/namespacemodel__bias__panel.html#a11b47653ad78e94bd60d745bb4c6f01d',1,'model_bias_panel']]],
+  ['panel_5fstring_2',['panel_string',['../d3/de7/namespacemodel__bias__panel.html#ab161a89230fd5955d91f008c2cf3ea68',1,'model_bias_panel']]],
+  ['parameterized_5fbeliefs_3',['parameterized_beliefs',['../d2/d90/class_fl_y_maze_r_l_1_1agents_1_1phenomenological_1_1_bayesian_ideal_observer.html#a53c725cbeedbacd913c80af5de83d679',1,'FlYMazeRL::agents::phenomenological::BayesianIdealObserver']]],
+  ['params_4',['params',['../d5/d90/namespaceoptimize__schedule.html#a639897a63e73a35254e794138cee6693',1,'optimize_schedule']]],
+  ['phi_5',['phi',['../da/d22/class_fl_y_maze_r_l_1_1agents_1_1phenomenological_1_1_c_a_t_i_e_learner.html#a86567dc0015d9753f442dbb747f05d6e',1,'FlYMazeRL::agents::phenomenological::CATIELearner']]],
+  ['policy_5fparam_5fset_6',['policy_param_set',['../d3/de7/namespacemodel__bias__panel.html#a7a44c5bd6f00dc85a231643fba7fccbc',1,'model_bias_panel']]],
+  ['policy_5fparams_7',['policy_params',['../d5/d90/namespaceoptimize__schedule.html#a85a8fcd32ab5511d0d8c4eecfca8d0bd',1,'optimize_schedule']]]
 ];

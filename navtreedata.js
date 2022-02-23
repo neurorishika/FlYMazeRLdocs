@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "FlyMazeRL", "index.html", [
-    [ "FlYMazeRL", "d4/d10/md__d___projects__fl_y_maze_r_l__r_e_a_d_m_e.html", null ],
+    [ "FlYMazeRL", "d7/d12/md__c___rishika__projects__fl_y_maze_r_l__r_e_a_d_m_e.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -39,7 +39,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
@@ -53,8 +53,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/d7d/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_expected_s_a_r_s_a_learner.html#a175a00c66b32246731f716207263a5f0",
-"df/dc8/namespace_fl_y_maze_r_l_1_1optimizers.html#ae879001ac2b277666eee780057b387ff"
+"d5/d90/namespaceoptimize__schedule.html#a725a8c4724ed930ed5d9ad176ab61e5b",
+"da/d22/class_fl_y_maze_r_l_1_1agents_1_1phenomenological_1_1_c_a_t_i_e_learner.html#a2feb0b1e4bd7f8f97fdfd80d1cfe145c",
+"dd/da7/class_fl_y_maze_r_l_1_1agents_1_1classical_1_1_d_q_learner.html#ae2678c9c3fdf6312b29eca7012189b05"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
